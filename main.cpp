@@ -6,11 +6,6 @@
 #include<array>
 #include<functional>
 
-/*
-#include"Vector2.h"
-#include"Vector3.h"
-#include"Vector4.h"
-#include"Matrix4x4.h"*/
 
 using namespace std;
 
@@ -34,45 +29,6 @@ int main(int argc, char const* argv[]) {
 		cout << a[i] << endl;
 	}
 
-
-	//vector<int>::iterator it;
-	//it = find(a.begin(), a.end(), -3);
-
-	//if (it != a.end()) {
-	//	cout << *it << endl;
-	//}
-
-	//it = find(a.begin(), a.end(), 9999);
-
-	//if (it != a.end()) {
-	//	cout << *it << endl;
-	//}
-
-	//bool b_array[] = { true,true,true,true };
-
-	//size_t n_count = std::count(b_array, b_array + (sizeof(b_array)), true);
-	//std::cout << n_count << std::endl;
-
-	//reverse(a.begin(), a.end());
-
-	//auto dump = [](auto a) {
-	//	for (auto i : a) {
-	//		std::cout << i << " ";
-	//	}
-	//	std::cout << std::endl;
-	//};
-	//std::array<int, 5> a1{ 1,2,3,4,5 };
-	//std::array<int, 5> a2{ 1,2,3,4,5 };
-	//std::replace(a1.begin(), a1.end(), 3, 0);
-	//std::replace(a2.begin(), a2.end(), 2, 0);
-	//dump(a1);
-	//dump(a2);
-
-	//int i_array[] = { 1,2,3 };
-	//for_each(std::begin(i_array), std::end(i_array),
-	//	[](int &i){
-	//	cout << i << endl;
-	//});
 	return 0;
 
 }
